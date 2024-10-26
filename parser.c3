@@ -363,7 +363,8 @@ fn void! Parser.parse_attributes(&self, XmlAttribute* attributes)
             String key_text = self.buffer.tcopy_str();
             self.expect_next(EQUALS)!!;
             self.expect_next(STRING)!!;
-            attributes.add(key_text, self.buffer.str_view());
+            String value_text = self.buffer.tcopy_str();
+            attributes.add(key_text, value_text);
         };
     }
 }

@@ -46,7 +46,7 @@ fn void XmlAttribute.set(
 }
 
 fn void XmlAttribute.add(&self, String name, String value) @inline =>
-    self.attributes.push({ name.copy(), value.copy() });
+    self.attributes.push({ name.copy(), value.len ? value.copy() : "" });
 
 fn void XmlAttribute.free(&self)
 {
