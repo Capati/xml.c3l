@@ -1,0 +1,19 @@
+{
+    "langrev": "1",
+    "warnings": ["no-unused"],
+    "authors": [],
+    "version": "0.1.0",
+    "dependencies": [],
+    "features": [],
+    "linked-libraries": [],
+    "sources": [],
+    "targets": {
+        "generate_entity_table": {
+            "type": "executable",
+            "dependencies": ["xml"],
+            "dependency-search-paths": [".."],
+            "sources": ["./tools/generate_entity_table.c3"]
+        }
+    },
+    "output": "./build"
+}

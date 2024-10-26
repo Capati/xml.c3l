@@ -1,0 +1,16 @@
+# Build
+
+build
+tools/*.xml
+
+# Sublime Text
+
+*.sublime-workspace
+
+# vs code
+
+/.vscode
+
+# Mac
+
+**/.DS_Store

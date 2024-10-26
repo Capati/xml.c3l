@@ -1,0 +1,47 @@
+{
+    "provides": "xml",
+    "targets": {
+        "freebsd-x64": {
+            "linked-libraries": []
+        },
+        "linux-aarch64": {
+            "linked-libraries": []
+        },
+        "linux-riscv32": {
+            "linked-libraries": []
+        },
+        "linux-riscv64": {
+            "linked-libraries": []
+        },
+        "linux-x86": {
+            "linked-libraries": []
+        },
+        "linux-x64": {
+            "linked-libraries": []
+        },
+        "macos-aarch64": {
+            "linked-libraries": []
+        },
+        "macos-x64": {
+            "linked-libraries": []
+        },
+        "netbsd-x64": {
+            "linked-libraries": []
+        },
+        "openbsd-x64": {
+            "linked-libraries": []
+        },
+        "wasm32": {
+            "linked-libraries": []
+        },
+        "wasm64": {
+            "linked-libraries": []
+        },
+        "windows-aarch64": {
+            "linked-libraries": []
+        },
+        "windows-x64": {
+            "linked-libraries": []
+        }
+    }
+}
